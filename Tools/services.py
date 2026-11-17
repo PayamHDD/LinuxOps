@@ -1,8 +1,6 @@
-from ssh.executor import SSHExecutor
-
-from security.validator import validate_service
-
-from logging.audit import audit_log
+from SSH.executor import SSHExecutor
+from Security.validator import validate_service
+from Logging.logger import audit_log
 
 
 def register(mcp):

@@ -1,6 +1,5 @@
-from ssh.executor import SSHExecutor
-
-from logging.audit import audit_log
+from SSH.executor import SSHExecutor
+from Logging.logger import audit_log
 
 
 def register(mcp):
