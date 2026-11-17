@@ -1,18 +1,16 @@
 # LinuxOps
 AI Driven Linux Operations
- _     _                  ___
-| |   (_)_ __  _   ___  _/ _ \ _ __  ___
-| |   | | '_ \| | | \ \/ / | | | '_ \/ __|
-| |___| | | | | |_| |>  <| |_| | |_) \__ \
-|_____|_|_| |_|\__,_/_/\_\\___/| .__/|___/
-                                |_|
-╭──────────────────────────────────────╮
-│                                      │
-│   L I N U X O P S                    │
-│   Linux System Operations Toolkit    | 
-َ│   AI Driven                          |
-│   Autho: PayamHDD                    │
-╰──────────────────────────────────────╯
+```text
+ _     _             __   __
+| |   (_)_ __  _   _\ \ / /__  _ __  ___
+| |   | | '_ \| | | |\ V / _ \| '_ \/ __|
+| |___| | | | | |_| | | | (_) | |_) \__ \
+|_____|_|_| |_|\__, | |_|\___/| .__/|___/
+               |___/          |_|
+
+        AI-Driven Linux Operations
+              MCP Server v1.0
+```
 # LinuxOps
 
 ### AI-Driven Linux Operations & Security Management
