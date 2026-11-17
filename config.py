@@ -2,12 +2,10 @@ import os
 
 
 class Config:
-
-    SSH_HOST = os.getenv("SSH_HOST", "192.168.1.100")
+    LLM_TOKEN = os.getenv("LLM_TOKEN")
+    SSH_HOST = os.getenv("SSH_HOST", "192.168.5.174")
     SSH_PORT = int(os.getenv("SSH_PORT", "22"))
-
     SSH_USERNAME = os.getenv("SSH_USERNAME", "mcpuser")
-
     SSH_KEY = os.getenv(
         "SSH_KEY",
         os.path.expanduser("~/.ssh/id_ed25519")
