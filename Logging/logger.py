@@ -1,4 +1,5 @@
-# logger.py
+# Name: logger.py
+# Centralized management of logging system for Linuxops 
 
 import logging
 from pathlib import Path
@@ -8,9 +9,10 @@ LOG_DIR.mkdir(exist_ok=True)
 
 
 def setup_logging():
+    log_file = LOG_DIR / "LinuxOps.log"
 
-    log_file = LOG_DIR / "bot.log"
-
+    # This will config Root Logger of the Python Logging Module.
+    # There are 2 handlers, Log File and Console.
     logging.basicConfig(
         level=logging.INFO,
 

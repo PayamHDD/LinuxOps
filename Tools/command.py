@@ -1,6 +1,6 @@
 import logging
-from ssh.executor import SSHExecutor
-from security.validator import validate_command
+from SSH.executor import SSHExecutor
+from Security.validator import validate_command
 
 # Logging
 logger = logging.getLogger(__name__)
